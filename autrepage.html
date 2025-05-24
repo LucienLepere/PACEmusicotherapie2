@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>5 Points vers des PDFs</title>
+  <style>
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      background-image: url('cerveau-musicien.png');      /* ton image de fond */
+      background-size: cover;                 /* occupe tout l’écran */
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      font-family: sans-serif;
+    .point {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    /* Position des 5 points */
+    .p1 { top: 49%; left: 52%; }
+    .p2 { top: 40%; left: 51%; }
+    .p3 { top: 37%; left: 30%; }
+    .p4 { top: 52%; left: 47%; }
+    .p5 { top: 20%; left: 47%; }
+  </style>
+</head>
+<body>
+
+  <a href="Article sur ce que m.pdf" target="_blank" class="point p1" title="Document 1" style="background-color: mediumseagreen;"></a>
+  <a href="Script du podcast sur la musicothérapie.pdf" target="_blank" class="point p2" title="Document 2" style="background-color: blue;"></a>
+  <a href="Sondage auprès des étudiants de l 2.pdf" target="_blank" class="point p3" title="Document 3" style="background-color: red;"></a>
+  <a href="Questions à une musicothérapeute.pdf" target="_blank" class="point p4" title="Document 4" style="background-color:purple;"></a>
+
+</body>
+</html>
